@@ -34,15 +34,15 @@ public class Main {
         }
 
         // Print input data
-        System.out.println("Inputs: ");
-        System.out.println("Text: " + text);
-        System.out.println("Limit: " + limit);
-        System.out.println("Should justify: " + justify);
-        System.out.println("=========================");
+      //  System.out.println("Inputs: ");
+      //  System.out.println("Text: " + text);
+      //  System.out.println("Limit: " + limit);
+      //  System.out.println("Should justify: " + justify);
+     //   System.out.println("=========================");
 
         // Run IdwallFormatter
         final StringFormatter sf = new IdwallFormatter();
-        String outputText = sf.format(text);
+        String outputText = sf.format(text, limit, justify);
 
         // Print output text
         System.out.println("Output: ");
